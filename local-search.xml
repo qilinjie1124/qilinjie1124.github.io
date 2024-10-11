@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>hexo搭建个人博客</title>
+    <title>hexo + fluid搭建个人博客</title>
     <link href="/2024/10/09/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <url>/2024/10/09/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><ul><li>系统：win 10</li><li>node：14.18.0</li></ul>]]></content>
     
     
     <categories>
