@@ -26,11 +26,13 @@
 <meta property="og:site_name" content="qinjie&#39;s blog">
 <meta property="og:description" content="环境准备 系统：win 10 node git  hexo快速安装安装hexo-cli1npm install -g hexo-cli 初始化项目1hexo init hexo-blog 进入hexo-blog文件夹，安装依赖 12cd hexo-blognpm install 安装完依赖，执行命令 1hexo s 在浏览器打开http:&#x2F;&#x2F;localhost:4000&#x2F; 就可以访问我们的博客了">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://www.qilijie.com/images/font-set.png">
 <meta property="article:published_time" content="2024-10-09T03:08:19.449Z">
-<meta property="article:modified_time" content="2024-10-11T08:05:16.712Z">
+<meta property="article:modified_time" content="2024-10-12T09:41:19.026Z">
 <meta property="article:author" content="qilinjie">
 <meta property="article:tag" content="其他">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://www.qilijie.com/images/font-set.png">
   
   
   
@@ -236,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          63 字
+          196 字
         
       </span>
     
@@ -247,7 +249,7 @@
         
         
         
-          1 分钟
+          2 分钟
         
       </span>
     
@@ -310,6 +312,13 @@
 <p>安装完依赖，执行命令</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure>
 <p>在浏览器打开<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 就可以访问我们的博客了</p>
+<h1 id="fluid主题安装"><a href="#fluid主题安装" class="headerlink" title="fluid主题安装"></a>fluid主题安装</h1><h2 id="通过npm安装"><a href="#通过npm安装" class="headerlink" title="通过npm安装"></a>通过npm安装</h2><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">npm <span class="hljs-keyword">install</span> hexo-theme-fluid -S<br></code></pre></td></tr></table></figure>
+
+<p>安装完成后，在项目的根目录下新建 <strong>_config.fluid.yml</strong>，将 <strong>node_modules&#x2F;hexo-theme-fluid&#x2F;_config.yml</strong> 的内容复制到 <strong>_config.fluid.yml</strong> 中</p>
+<h2 id="在github上下载zip"><a href="#在github上下载zip" class="headerlink" title="在github上下载zip"></a>在github上下载zip</h2><p><a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid">hexo-theme-fluid下载地址</a></p>
+<p>将下载好的zip解压，复制到themes文件夹下，最终的路径是 <strong>themes&#x2F;fluid</strong>，以下都是按照第二种方式进行配置</p>
+<h2 id="fluid主题配置"><a href="#fluid主题配置" class="headerlink" title="fluid主题配置"></a>fluid主题配置</h2><p>进入fluid主题配置文件中，路径：<strong>themes&#x2F;fluid&#x2F;_config.yml</strong></p>
+<h3 id="字体配置"><a href="#字体配置" class="headerlink" title="字体配置"></a>字体配置</h3><p>当前博客选择的字体是cursive<br><img src="/../images/font-set.png" srcset="/img/loading.gif" lazyload alt="字体配置"></p>
 
                 
               </div>
